@@ -1,19 +1,39 @@
-  public static void main(String[] args) {
-            int numero = 7;
+   public static void main(String[] args) {
+        saludarUsuario("Ana", 20);
+        saludarAdmin("Carlos", 35);
+    }
 
-            if (numero % 2 == 0) {
-                System.out.println("El número " + numero + " es par");
-            } else {
-                System.out.println("El número " + numero + " es impar");
-            }
+    public static void saludarUsuario(String nombre, int edad) {
+        System.out.println("Hola usuario " + nombre);
+        System.out.println("Edad: " + edad);
 
-            if (numero > 0) {
-                System.out.println("Es positivo");
-            } else {
-                if (numero < 0) {
-                    System.out.println("Es negativo");
-                } else {
-                    System.out.println("Es cero");
-                }
-            }
+        if (edad >= 18) {
+            System.out.println("Mayor de edad");
+        } else {
+            System.out.println("Menor de edad");
         }
+
+        if (edad > 30) {
+            System.out.println("Usuario mayor");
+        } else {
+            System.out.println("Usuario joven");
+        }
+    }
+
+    public static void saludarAdmin(String nombre, int edad) {
+        System.out.println("Hola admin " + nombre);
+        System.out.println("Edad: " + edad);
+
+        if (edad >= 18) {
+            System.out.println("Mayor de edad");
+        } else {
+            System.out.println("Menor de edad");
+        }
+
+        if (edad > 30) {
+            System.out.println("Admin mayor");
+        } else {
+            System.out.println("Admin joven");
+        }
+    }
+}
