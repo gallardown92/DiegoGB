@@ -6,7 +6,7 @@
             }
 
             public static void procesarPersona(String tipo, String nombre, int edad) {
-                System.out.println("Hola " + tipo + " " + nombre);
+                System.out.println("Que tal " + tipo + " " + nombre + "es un placer.");
                 System.out.println("Edad: " + edad);
 
                 mostrarEdad(edad,tipo);
