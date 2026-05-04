@@ -9,7 +9,7 @@
                 System.out.println("Muy buenas, " + tipo + " " + nombre + "bienvenido a su PC");
                 System.out.println("Edad: " + edad);
 
-                mostrarEdad(edad,tipo);
+                mostrarEdad(edad,tipo); //este comentario pertenece solo a la nueva rama
             }
             //Dentro del Main en DiegoGB
             private static void mostrarEdad(int edad, String tipo) {
