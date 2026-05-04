@@ -1,9 +1,8 @@
-
-            //Dentro de Main en DiegoGB
+  //Dentro de Main en DiegoGB
 
             public static void main(String[] args) {
-                procesarPersona("Usuario", "Ana", 20);
-                procesarPersona("Admin", "Carlos", 35);
+                procesarPersona("Usuario", "Lucia", 20);
+                procesarPersona("Admin", "Jose", 35);
             }
 
             public static void procesarPersona(String tipo, String nombre, int edad) {
@@ -26,7 +25,4 @@
                  }
 
                 }
-
-
-
 
